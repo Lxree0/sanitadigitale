@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    <title>Servizi Sanitari Digitali</title>   
+    
+</head>
+<body>
+    <div class="topnav">
+        <a href="Home.html">Home</a>
+        <a class="active" href="Servizi.html">Sanitari Digitali</a>
+        <a href="UnpodiStat.html">Statistiche</a>
+        <a href="Telemedicina.html">Telemedicina</a>
+    </div>    
+    <strong><h1 style="margin-top: 10%;margin-left: 9%;">Cosa sono i servizi digitali?</h1></strong>
+
+    <div class="container-riga" >
+        
+        <p class="fancy-paragraph"style="margin-left:10%">Con il termine di sanità digitale ci si riferisce all’utilizzo della tecnologia, da parte del servizio sanitario, per migliorare l’accesso, l’efficienza e la qualità delle cure. Uno degli esempi che forse può risultare più familiare è dato dalle piattaforme di telemedicina attraverso le quali è possibile avere un consulto medico a distanza, ma anche dalle app per il monitoraggio della salute e di alcune rilevazioni come, per esempio, la pressione arteriosa o il tasso di glicemia e dai servizi online chiamati anche di teleconsulenza che consentono di chiedere un parere ad un medico con le stesse modalità con le quali di solito ci si rivolge al medico di famiglia. Inoltre la consultazione e la modifica dei propri referti e delle proprie cartelle cliniche costituiscono un primo incisivo passo che preliminarmente il paziente dovrebbe compiere per poter controllare in autonomia e, si spera, con cognizione dei fatti, la sua salute ed intervenire, se ed in quel momento lo ritiene necessario, collaborando sempre con il Medico Curante.</p>
+        <img src="Sanita-digitale.jpg" alt="salute" style="width: 25%; margin-right: 20%;"class="img">
+        
+    </div>
+    
+    
+    <strong><h1 style="margin-top: 10%;margin-left: 9%;">Come vengono utilizzati nella vita quotidiana?</h1></strong>
+
+    <div class="container-riga">
+        <p class="fancy-paragraph"style="margin-left:10%"> Questi servizi vengono usati in molteplici campi come detto prima, tra cui per esempio Numerose app aiutano a tenere sotto controllo parametri importanti come pressione sanguigna, battito cardiaco, glicemia o attività fisica. Questi strumenti permettono alle persone di seguire costantemente il proprio stato di salute e di condividere i dati con il medico in modo rapido e preciso.Ci sono app come Emergenza che sono servite in passato, nell'era del covid, quando magari qualcuno era infetto tu dovevi segnarlo sull'app in modo che i servizi sanitari venivano a sapere dell'accaduto.</p>
+        <img src="emergenzeapp.png" alt="appemergenze" style="width: 20%; margin-right: 30%;" class="img">
+    </div>
+    <strong><h1 style="margin-top: 10%;margin-left: 8%;">Alcuni esempi di app usate per la rilevamento della salute</h1></strong>
+     
+    <div class="container-colonna">
+        
+        <ul class="custom-list">
+            <li> <a href="googleFit.png"><strong>Google Fit</strong></a>&nbsp;&nbsp;&nbsp;App per monitorare attività fisica, passi, calorie bruciate e battito cardiaco.</li>
+            <li><a href="samsung_health_section_1_2_mo.avif"><strong>Samsung Health</strong></a>&nbsp;&nbsp;&nbsp;App per il monitoraggio dell'attività fisica, del sonno, della dieta e della salute mentale.</li>
+            <li><a href="apple healt.jpg"><strong>Apple Health</strong></a>&nbsp;&nbsp;&nbsp;App integrata su iOS che raccoglie e analizza dati sulla salute da diverse fonti come sonno, passi, alimentazione e battito cardiaco.</li>
+            <li><a href="mySugr (4)_0.png"><strong>MySugr</strong></a>&nbsp;&nbsp;&nbsp;App pensata per diabetici, consente di registrare glicemia, pasti, insulina e attività fisica in modo semplice e intuitivo.</li>
+            <li><a href="nuova-app-fitbit-google-1.webp"><strong>Fitbit</strong></a>&nbsp;&nbsp;&nbsp;App collegata ai dispositivi Fitbit per monitorare l'attività fisica, il sonno, il battito cardiaco e il benessere generale.</li>
+            <li><a href="blood pressurew companion.jpg"><strong>Blood Pressure Companion</strong></a>&nbsp;&nbsp;&nbsp;App per il monitoraggio della pressione arteriosa, della frequenza cardiaca e del peso corporeo con grafici e report dettagliati.</li>
+            <li><a href="headspace.jpg"><strong>Headspace</strong></a>&nbsp;&nbsp;&nbsp;App di meditazione e mindfulness per migliorare il benessere mentale, il sonno e la gestione dello stress.</li>
+
+        </ul>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="headspace.jpg" alt="Slide 1"></div>
+                <div class="swiper-slide"><img src="apple healt.jpg" alt="Slide 2"></div>
+                <div class="swiper-slide"><img src="samsung_health_section_1_2_mo.avif" alt="Slide 3"></div>
+                <div class="swiper-slide"><img src="blood pressurew companion.jpg" alt="Slide 4"></div>
+  
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+      <script>
+        const swiper = new Swiper('.swiper', {
+          loop: true,
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+        });
+      </script>
+   
+    <footer class="footer">
+        <div class="footer-container">
+          <p> NOME:  Lorenzo Lega <br><br>  CLASSE:  4DI  <br><br> INDIRIZZO DI CONTATTO:  lorenzo.lega.07@ittgiorgi.edu.it </p>
+        </div>
+    </footer>
+</body>
+</html>

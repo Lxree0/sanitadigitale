@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    <title>Telemedicina</title>
+
+</head>
+<body>
+    <div class="topnav">
+        <a href="Home.html">Home</a>
+        <a href="Servizi.html">Sanitari Digitali</a>
+        <a href="UnpodiStat.html">Statistiche</a>
+        <a class="active" href="Telemedicina.html">Telemedicina</a>
+    </div> 
+
+
+    <div class="container-colonna">
+        <h1>Cos'è la telemedicina?</h1><br>
+        <p class="fancy-paragraph">Per servizi di sanità digitale non si intende solo il fascicolo sanitario elettronico ma, ci sono moltissime sfaccettature di Sanità digitale, una di queste è la telemedicina. Questa è l'erogazione di servizi sanitari, come Visite mediche, Diagnosi, Consulti e altro ancora tramite strumenti elettronici come appunto i pc e i tablet. Ad esempio alcuni dottori operano pazienti o fanno visite mediche in video conferenza, le operazioni ovviamente vengono svolte a distanza dal dottore che controlla dei macchinari che consentono magari di operare a <br> Ecco alcuni esempi: <br></p><br>
+        <ul class="custom-list">
+            <li><strong>Televisita </strong> Una visita medica a distanza, in videochiamata, spesso usata per controlli periodici o consulti non urgenti.</li>
+            <li><strong>Telesorveglianza </strong> Il monitoraggio remoto di pazienti cronici (es. diabetici o cardiopatici) con dispositivi che raccolgono dati vitali.</li>
+            <li><strong>Teleassistenza </strong> Supporto sanitario a pazienti fragili, come anziani o disabili, anche in ambito domiciliare.</li>
+        </ul>
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="Telemedicine_Consult.jpg" alt="Slide 1"></div>
+              <div class="swiper-slide"><img src="GSD_art7.jpg" alt="Slide 2"></div>
+              <div class="swiper-slide"><img src="telemedicina1.jpg" alt="Slide 3"></div>
+            </div>
+        
+            
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        
+          
+        
+    </div>
+        <!--script libreria-->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+      <script>
+        const swiper = new Swiper('.swiper', {
+          loop: true,
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+        });
+      </script>
+    
+    
+      <div class="container-colonna">
+        <p class="fancy-paragraph">Questa tecnologia ha degli svantaggi, il principale è il semplice accesso per tutti, perchè non tutti possono avere un dispositivo digitale adatto alla telemedicina, la formazione del personale sanitario e Protezione dei dati sensibili cioè <a href="Privacy.html"> rispetto della privacy (clicca per saperne di più!)</a>. <br> La telemedicina rappresenta una delle innovazioni più significative del panorama sanitario moderno. Pur non sostituendo completamente il rapporto medico-paziente tradizionale, offre un potente strumento complementare in grado di migliorare l’accessibilità, l’efficienza e la continuità del confronto per un parere medico. Con il progredire della tecnologia e l’evolversi delle normative, il suo impiego è destinato a crescere, contribuendo a costruire un sistema sanitario più equo, digitale e orientato al paziente.
+
+        </p>
+      </div>
+    <footer class="footer">
+        <div class="footer-container">
+          <p> NOME:  Lorenzo Lega <br><br>  CLASSE:  4DI  <br><br> INDIRIZZO DI CONTATTO:  lorenzo.lega.07@ittgiorgi.edu.it </p>
+        </div>
+    </footer>
+</body>
+</html>
